@@ -8,7 +8,7 @@ RUN mkdir -p /usr/local/app
 
 COPY drop/*.jar /usr/local/app/
 
-COPY drop/run.sh usr/lcal/app/run.sh
+COPY drop/run.sh usr/local/app/run.sh
 
 COPY drop/application.properties application.properties
 
